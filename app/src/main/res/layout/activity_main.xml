@@ -8,10 +8,20 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/txtTitulo"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="91dp"
-        android:text="Hotel: \nHoteru"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Hotel:"
         android:textAlignment="center"
         android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="cursive"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="48sp" />
 </LinearLayout>
