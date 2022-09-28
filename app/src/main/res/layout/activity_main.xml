@@ -39,4 +39,10 @@
         android:layout_height="wrap_content"
         android:text="Button" />
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
 </LinearLayout>
