@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Hoteru</string>
+    <string name="txtCliente">Cliente</string>
+    <string name="txtAdmin">Administrador</string>
 </resources>
