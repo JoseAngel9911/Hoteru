@@ -60,7 +60,7 @@
                             android:layout_height="match_parent"
                             android:text="Puede reservar \nuna habitacion "
                             android:textAlignment="viewStart"
-                            android:textSize="34sp" />
+                            android:textSize="24sp" />
                     </LinearLayout>
                 </HorizontalScrollView>
 
@@ -95,7 +95,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:text="Solicitar servicios \na la habitacion"
-                            android:textSize="34sp" />
+                            android:textSize="22sp" />
                     </LinearLayout>
                 </HorizontalScrollView>
 
@@ -130,7 +130,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:text="Informacion del \ncliente"
-                            android:textSize="34sp" />
+                            android:textSize="24sp" />
                     </LinearLayout>
                 </HorizontalScrollView>
 
