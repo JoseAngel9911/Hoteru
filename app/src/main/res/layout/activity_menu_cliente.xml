@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo"
+    android:contentDescription="@string/app_name">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Menu"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:text="Seleccione una opcion"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="679dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="248dp">
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="172dp"
+                    android:insetLeft="5dp"
+                    android:insetTop="35dp"
+                    android:insetRight="5dp"
+                    android:insetBottom="35dp"
+                    android:text="Reservar"
+                    android:textSize="34sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Puede reservar \nuna habitacion "
+                            android:textAlignment="viewStart"
+                            android:textSize="34sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="172dp"
+                    android:insetLeft="5dp"
+                    android:insetTop="35dp"
+                    android:insetRight="5dp"
+                    android:insetBottom="35dp"
+                    android:text="Servicios"
+                    android:textSize="34sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Solicitar servicios \na la habitacion"
+                            android:textSize="34sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="172dp"
+                    android:insetLeft="5dp"
+                    android:insetTop="35dp"
+                    android:insetRight="5dp"
+                    android:insetBottom="35dp"
+                    android:text="Detalles"
+                    android:textSize="34sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Informacion del \ncliente"
+                            android:textSize="34sp" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
