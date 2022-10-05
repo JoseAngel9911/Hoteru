@@ -43,6 +43,7 @@
                     android:insetRight="5dp"
                     android:insetBottom="35dp"
                     android:text="Reservar"
+                    android:onClick="cambiarActivityReservar"
                     android:textSize="34sp" />
 
                 <HorizontalScrollView
@@ -79,6 +80,7 @@
                     android:insetRight="5dp"
                     android:insetBottom="35dp"
                     android:text="Servicios"
+                    android:onClick="cambiarActivityServicios"
                     android:textSize="34sp" />
 
                 <HorizontalScrollView
