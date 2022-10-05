@@ -19,7 +19,8 @@
             android:layout_height="wrap_content"
             android:text="Inicio Sesión"
             android:textAlignment="center"
-            android:textSize="34sp" />
+            android:textSize="34sp"
+            android:onClick="cambiarActivityMenuAdmin"/>
 
         <ImageView
             android:id="@+id/imLogo"
