@@ -2,4 +2,6 @@
     <string name="app_name">Hoteru</string>
     <string name="txtCliente">Cliente</string>
     <string name="txtAdmin">Administrador</string>
+
+    <string name="imagen_limpieza">Servicio limpieza</string>
 </resources>
