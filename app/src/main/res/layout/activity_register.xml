@@ -24,7 +24,7 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="139dp"
+            android:layout_height="103dp"
             app:srcCompat="@drawable/logohotel" />
 
         <TextView
@@ -91,6 +91,12 @@
             android:hint="Ingrese numero de contacto"
             android:inputType="phone"
             android:minHeight="48dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Permitir el envio de informes y promociones a su correo electronico" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

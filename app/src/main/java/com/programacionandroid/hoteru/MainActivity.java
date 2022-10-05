@@ -11,4 +11,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    boton_cliente  boton_cliente= new boton_cliente;
 }

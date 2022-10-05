@@ -42,7 +42,8 @@
                 android:insetRight="65dp"
                 android:insetBottom="10dp"
                 android:text="@string/txtCliente"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:onClick="boton_cliente"/>
 
             <Button
                 android:id="@+id/button2"
