@@ -2,6 +2,7 @@ package com.programacionandroid.hoteru;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
@@ -11,5 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    boton_cliente  boton_cliente= new boton_cliente;
+    public void cambiarActivitySesionCliente(View view){
+        Intent activityCliente = new Intent()
+
+    }
 }

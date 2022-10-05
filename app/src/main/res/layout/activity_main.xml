@@ -43,7 +43,7 @@
                 android:insetBottom="10dp"
                 android:text="@string/txtCliente"
                 android:textSize="20sp"
-                android:onClick="boton_cliente"/>
+                android:onClick="cambiarActivitySesionCliente"/>
 
             <Button
                 android:id="@+id/button2"
