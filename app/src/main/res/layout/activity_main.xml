@@ -53,6 +53,7 @@
                 android:insetTop="10dp"
                 android:insetRight="65dp"
                 android:text="@string/txtAdmin"
+                android:onClick="cambiarActivitySesionAdmin"
                 android:textSize="20sp" />
 
         </LinearLayout>

@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
         Intent activityCliente = new Intent(this,activity_sesion_class.class);
         startActivity(activityCliente);
     }
+    public void cambiarActivitySesionAdmin(View view){
+        Intent activityCliente = new Intent(this,activity_sesion_admin.class);
+        startActivity(activityCliente);
+    }
 }
