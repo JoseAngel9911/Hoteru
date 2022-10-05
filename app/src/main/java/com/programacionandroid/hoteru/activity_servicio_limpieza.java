@@ -1,4 +1,6 @@
 package com.programacionandroid.hoteru;
 
-public class activity_servicio_limpieza {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class activity_servicio_limpieza extends AppCompatActivity {
 }

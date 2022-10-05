@@ -1,4 +1,6 @@
 package com.programacionandroid.hoteru;
 
-public class activity_menu_cliente {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class activity_menu_cliente extends AppCompatActivity {
 }

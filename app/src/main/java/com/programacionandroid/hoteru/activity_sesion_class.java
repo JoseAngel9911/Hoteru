@@ -1,4 +1,6 @@
 package com.programacionandroid.hoteru;
 
-public class activity_sesion_class {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class activity_sesion_class {extends AppCompatActivity
 }

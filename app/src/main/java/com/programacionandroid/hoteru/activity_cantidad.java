@@ -1,4 +1,6 @@
 package com.programacionandroid.hoteru;
 
-public class activity_cantidad {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class activity_cantidad extends AppCompatActivity {
 }
