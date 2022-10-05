@@ -25,7 +25,37 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name=".activ">
+        <activity android:name=".activity_sesion_class">
+
+        </activity>
+        <activity android:name=".activity_register">
+
+        </activity>
+        <activity android:name=".activity_cantidad">
+
+        </activity>
+        <activity android:name=".activity_info_habitacion">
+
+        </activity>
+        <activity android:name=".activity_menu_admin">
+
+        </activity>
+        <activity android:name=".activity_menu_cliente">
+
+        </activity>
+        <activity android:name=".activity_menu_reservar">
+
+        </activity>
+        <activity android:name=".activity_menu_serviciohabitacion">
+
+        </activity>
+        <activity android:name=".activity_servicio_comida">
+
+        </activity>
+        <activity android:name=".activity_servicio_limpieza">
+
+        </activity>
+        <activity android:name=".activity_sesion_admin">
 
         </activity>
     </application>
