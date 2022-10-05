@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void cambiarActivitySesionCliente(View view){
-        Intent activityCliente = new Intent()
+        Intent activityCliente = new Intent()h
 
     }
 }
