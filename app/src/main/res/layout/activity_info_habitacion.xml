@@ -46,7 +46,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.21"
-                app:srcCompat="@drawable/habBasic" />
+                app:srcCompat="@drawable/basico" />
 
             <TextView
                 android:id="@+id/textView28"
@@ -90,7 +90,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.2"
-                app:srcCompat="@drawable/habPremium" />
+                app:srcCompat="@drawable/premium" />
 
             <TextView
                 android:id="@+id/textView29"
@@ -133,7 +133,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.21"
-                app:srcCompat="@drawable/habBusiness" />
+                app:srcCompat="@drawable/business" />
 
             <TextView
                 android:id="@+id/textView30"
