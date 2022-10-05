@@ -51,13 +51,13 @@
                         android:id="@+id/textView22"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="                                              Menu infantil" />
+                        android:text="                       Desayuno " />
 
                     <TextView
                         android:id="@+id/textView18"
-                        android:layout_width="216dp"
-                        android:layout_height="79dp"
-                        android:text="                                                               Seleccione  para pedir servicio de limpieza a la habitacion"
+                        android:layout_width="246dp"
+                        android:layout_height="113dp"
+                        android:text="                                                               Puede escoger entre 3 menus de desayuno, sin gluten, vegano o un desayuno clasico, seleccione para mas informacion."
                         android:textSize="16sp" />
 
                 </LinearLayout>
@@ -78,7 +78,7 @@
                     android:layout_width="168dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:text="Seleccionar" />
 
                 <Space
                     android:layout_width="97dp"
@@ -112,14 +112,14 @@
                     <TextView
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="                                            Menu familiar" />
+                        android:layout_height="32dp"
+                        android:text="                       Almuerzo" />
 
                     <TextView
                         android:id="@+id/textView19"
                         android:layout_width="245dp"
-                        android:layout_height="83dp"
-                        android:text="                                                 Seleccione para pedir servicio de comida  a  habitacion"
+                        android:layout_height="112dp"
+                        android:text="Contamos con variados platillos, el menu principal consta de aperitivo, entrada, principal y postre a eleccion, seleccione para mas informacion."
                         android:textSize="16sp" />
                 </LinearLayout>
 
@@ -146,7 +146,7 @@
                     android:layout_width="139dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:text="Seleccionar" />
 
                 <Space
                     android:layout_width="wrap_content"
@@ -161,26 +161,26 @@
 
                 <ImageView
                     android:id="@+id/imageView7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="104dp"
+                    android:layout_width="104dp"
+                    android:layout_height="115dp"
                     app:srcCompat="@mipmap/cenaespecial" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="130dp"
                     android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/textView31"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="                    Especial" />
 
                     <TextView
                         android:id="@+id/textView32"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:layout_width="234dp"
+                        android:layout_height="94dp"
+                        android:text="El especial, es una cena romantica para 2 personas, con un buffet y bar abierto, seleccione para mas informacion." />
                 </LinearLayout>
             </TableRow>
             <TableRow
@@ -204,11 +204,11 @@
                     android:layout_width="139dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:text="Seleccionar" />
 
                 <Space
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="28dp" />
 
 
             </TableRow>
