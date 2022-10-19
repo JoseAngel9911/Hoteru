@@ -21,4 +21,10 @@ public class MainActivity extends AppCompatActivity {
         Intent activityCliente = new Intent(this,activity_sesion_admin.class);
         startActivity(activityCliente);
     }
+
+    public void cambiarActivityJoseLafferte(View view){
+        Intent activityCliente = new Intent(this,activity_intents_joselafferte_class.class);
+        startActivity(activityCliente);
+    }
+
 }

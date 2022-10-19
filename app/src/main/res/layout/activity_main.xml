@@ -56,6 +56,20 @@
                 android:onClick="cambiarActivitySesionAdmin"
                 android:textSize="20sp" />
 
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intent Jose Lafferte"
+                android:onClick="cambiarActivityJoseLafferte"
+                />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intent Paulina Beltrand" />
+
         </LinearLayout>
     </ScrollView>
 
